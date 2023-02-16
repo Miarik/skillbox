@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+img {
+    max-width: 100%;
+}
+
+pre {
+    margin: 0;
+}
+
+.main-title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: #3f2aff;
+}
+
+.text {
+    margin: 0;
+    max-width: 730px;
+    font-size: 20px;
+    line-height: 160%;
+    color: #333;
+}
+
+.text:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.quote-text {
+    padding: 25px 120px;
+    text-align: center;
+    max-width: 900px;
+    background-color: #EBEBEB;
+}
+
+.quote {
+    font-weight: 700;
+}
+
+.quote-author {
+    font-style: normal;
+}
+
+.image-group {
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.image-group-text {
+    padding: 12px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #3f2aff;
+}
+
+.second-title {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 40px;
+}
+
+.list {
+    margin: 20px 0;
+    padding-left: 40px;
+    max-width: 1130px;
+    font-size: 20px;
+    line-height: 2.4;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 60px;
+    border-collapse: collapse;
+    
+}
+
+.table caption {
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: left;
+    font-size: 20px;
+}
+
+.table th {
+    color: #3f2aff;
+    font-weight: bold;
+}
+
+.table td, .table th {
+    padding: 30px;
+    border: 1px solid #c4c4c4;
+    font-size: 20px;
+    vertical-align: top;
+    text-align: left;
+}
